@@ -1,0 +1,17 @@
+// Fonts
+$text-font-stack: 'Roboto', 'Helvetica', sans-serif !default;
+$text-weight-light: 300 !default;
+$text-weight-regular: 400 !default;
+$text-weight-medium: 500 !default;
+$text-weight-bold: 700 !default;
+
+// Colors
+
+.t-white { color: $text-white }
+
+// Align
+
+.text-center { text-align: center }
+.float-l { float: left }
+.float-r { float: right; }
+.clear {clear: both;}
