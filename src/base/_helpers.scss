@@ -1,4 +1,5 @@
 // Fonts
+
 $text-font-stack: 'Roboto', 'Helvetica', sans-serif !default;
 $text-weight-light: 300 !default;
 $text-weight-regular: 400 !default;
@@ -15,6 +16,7 @@ $text-weight-bold: 700 !default;
 .text-right { text-align: right }
 
 //Flexbox m8
+
 .level {
 	display: flex;
 	align-items: center;
@@ -26,5 +28,11 @@ $text-weight-bold: 700 !default;
 	//This stretches a child to fill all free space
 	.flex {
 		flex: 1;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	span {
+		display: none;
 	}
 }
