@@ -12,6 +12,19 @@ $text-weight-bold: 700 !default;
 // Align
 
 .text-center { text-align: center }
-.float-l { float: left }
-.float-r { float: right; }
-.clear {clear: both;}
+.text-right { text-align: right }
+
+//Flexbox m8
+.level {
+	display: flex;
+	align-items: center;
+
+	&.space-between {
+		justify-content: space-between;
+	}
+
+	//This stretches a child to fill all free space
+	.flex {
+		flex: 1;
+	}
+}
