@@ -1,17 +1,16 @@
-# Static Starter
-Sharing what I think is a good starting point for static sites. I really enjoy a fancy stack, but sometimes a simple starting point with Sass is all that's needed.
+<img width="933" src="https://cloud.githubusercontent.com/assets/3231370/25316037/97b0872e-282d-11e7-86c2-5e015a0687b2.png">
 
 ## Installation
-- Clone `git clone https://github.com/bgian/static-starter.git`
-- [Download latest version](https://github.com/bgian/static-starter/archive/master.zip)
+- Clone `git clone https://github.com/lookstudios/look.git`
+- [Download latest version](https://github.com/lookstudios/look/archive/master.zip)
 
 ## Run
 - `npm install`
 - `gulp`
 
 ### Support
--   [hi@bobby.so](mailto:hi@bobby.so)
--   [@_bgian](http://twitter.com/_bgian)
+-   [bobby@lookstudios.co](mailto:bobby@lookstudios.co)
+-   [@lookstudiosco](http://twitter.com/lookstudiosco)
 
 ### License
-MIT
+Don't use our site for your site.
