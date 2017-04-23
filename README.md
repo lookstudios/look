@@ -8,9 +8,6 @@
 - `npm install`
 - `gulp`
 
-### Support
+## Support
 -   [bobby@lookstudios.co](mailto:bobby@lookstudios.co)
 -   [@lookstudiosco](http://twitter.com/lookstudiosco)
-
-### License
-Don't use our site for your site.
