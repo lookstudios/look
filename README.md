@@ -1,4 +1,4 @@
-<img width="933" src="https://cloud.githubusercontent.com/assets/3231370/25316037/97b0872e-282d-11e7-86c2-5e015a0687b2.png">
+![github](https://cloud.githubusercontent.com/assets/3231370/25316046/c07847fa-282d-11e7-8386-3ae803f9d871.png)
 
 ## Installation
 - Clone `git clone https://github.com/lookstudios/look.git`
