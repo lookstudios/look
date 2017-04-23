@@ -1,4 +1,4 @@
-![github](https://cloud.githubusercontent.com/assets/3231370/25316061/f4e4ea0c-282d-11e7-981c-2d2cc4c83334.png)
+![github](https://cloud.githubusercontent.com/assets/3231370/25316085/90d63f60-282e-11e7-8a02-f8cb2e957edd.png)
 
 # Look Studios
 We've open-sourced our site for you to snoop.
