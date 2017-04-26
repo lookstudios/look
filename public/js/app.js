@@ -780,16 +780,37 @@ var app = new Vue({
   data: function data() {
     return {
       pageHeight: 0,
-      viewportHeight: 0
+      viewportHeight: 0,
+      lastFlicker: 0
     };
   },
   mounted: function mounted() {
     this.getDimensions();
+    this.flicker();
     $(window).on('resize', this.getDimensions);
   },
 
 
   methods: {
+    flicker: function flicker() {
+      var _this = this;
+
+      $(".logo-center").toggleClass('off');
+      var repeat = 0;
+
+      if (this.lastFlicker < 5) {
+        this.lastFlicker++;
+        repeat = Math.random() * 100;
+      } else {
+        this.lastFlicker = 0;
+        repeat = Math.random() * 2300;
+      }
+
+      setTimeout(function () {
+        _this.flicker();
+      }, repeat);
+    },
+
 
     getDimensions: function getDimensions() {
       this.pageHeight = $('.section').height() * ($('.section').length - 1);

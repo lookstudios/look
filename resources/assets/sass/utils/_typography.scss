@@ -1,9 +1,14 @@
 body, html, input, button, select {
-
+	font-family: $site-font;
+	font-weight: 400;
+	font-size: 16px;
+	color: $text-dark;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .text-large {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 38px;
 	color: $text-dark;
 	line-height: 58px;
