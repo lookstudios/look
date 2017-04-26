@@ -3,16 +3,22 @@
         <ul class="list">
             <li class="title">Get in touch</li>
             <li>
-                <span>Let's work together</span>
-                <a href="mailto:hey@lookstudiosco" class="light">@</a>
+                <a href="mailto:hey@lookstudiosco">
+                    <span>Let's work together</span>
+                    <span class="light">@</span>
+                </a>
             </li>
             <li>
-                <span>Follow Look for updates</span>
-                <a href="https://twitter.com/lookstudiosco" target="_blank" class="light">@</a>
+                <a href="https://twitter.com/lookstudiosco" target="_blank">
+                    <span>Follow Look for updates</span>
+                    <span class="light">@</span>
+                </a>
             </li>
             <li>
-                <span>See what we've built</span>
-                <a href="https://github.com/lookstudios" target="_blank" class="light">WWW</a>
+                <a href="https://github.com/lookstudios" target="_blank">
+                    <span>See what we've built</span>
+                    <span class="light">WWW</span>
+                </a>
             </li>
         </ul>
     </div>

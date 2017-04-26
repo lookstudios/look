@@ -9,9 +9,17 @@
 		padding: 20px 0px;
 		border-bottom: 1px solid $border-color;
 
-		span, a {
-			font-size: 32px;
+		a {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			color: $text-dark;
 			text-decoration: none;
+			flex: 1;
+		}
+
+		span {
+			font-size: 32px;
 
 			@media(max-width: $mobile-width) {
 				font-size: 27px;

@@ -3,12 +3,16 @@
         <ul class="list">
             <li class="title">Look labs</li>
             <li>
-                <span>rotate.am</span>
-                <span class="light">Soon</span>
+                <a href="#" @click.prevent>
+                    <span>rotate.am</span>
+                    <span class="light">Soon</span>
+                </a>
             </li>
             <li>
-                <span>static-starter</span>
-                <a href="https://github.com/lookstudios/static-starter" target="_blank" class="light">WWW</a>
+                <a href="https://github.com/lookstudios/static-starter" target="_blank">
+                    <span>static-starter</span>
+                    <span class="light">WWW</span>
+                </a>
             </li>
         </ul>
     </div>
