@@ -29,7 +29,7 @@ const app = new Vue({
 
     		if(this.lastFlicker < 5){
 				this.lastFlicker++;
-				repeat = Math.random() * 100;
+				repeat = Math.random() * 300;
 			}else{
 				this.lastFlicker = 0;
 				repeat = Math.random() * 2300;

@@ -4,15 +4,15 @@
             <li class="title">Get in touch</li>
             <li>
                 <span>Let's work together</span>
-                <span class="light">@</span>
+                <a href="mailto:hey@lookstudiosco" class="light">@</a>
             </li>
             <li>
                 <span>Follow Look for updates</span>
-                <span class="light">@</span>
+                <a href="https://twitter.com/lookstudiosco" target="_blank" class="light">@</span>
             </li>
             <li>
                 <span>See what we've built</span>
-                <span class="light">WWW</span>
+                <a href="https://github.com/lookstudios" target="_blank" class="light">WWW</span>
             </li>
         </ul>
     </div>

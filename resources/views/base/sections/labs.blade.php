@@ -8,11 +8,7 @@
             </li>
             <li>
                 <span>static-starter</span>
-                <span class="light">WWW</span>
-            </li>
-            <li>
-                <span>shopify-starter</span>
-                <span class="light">WWW</span>
+                <a href="https://github.com/lookstudios/static-starter" target="_blank" class="light">WWW</a>
             </li>
         </ul>
     </div>
