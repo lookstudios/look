@@ -13,6 +13,10 @@
 			font-size: 32px;
 			text-decoration: none;
 
+			@media(max-width: $mobile-width) {
+				font-size: 27px;
+			}
+
 			&.light {
 				color: $text-light;
 				text-align: right;
@@ -25,6 +29,10 @@
 			margin-bottom: 28px;
 			font-size: 20px;
 			color: $text-light;
+
+			@media(max-width: $mobile-width) {
+				font-size: 18px;
+			}
 		}
 	}
 

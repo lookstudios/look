@@ -8,4 +8,10 @@
 		text-decoration: none;
 	}
 
+	.sub {
+		@media(max-width: $mobile-width) {
+			display: none;
+		}
+	}
+
 }
