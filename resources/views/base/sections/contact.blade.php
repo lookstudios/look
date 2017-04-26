@@ -3,7 +3,7 @@
         <ul class="list">
             <li class="title">Get in touch</li>
             <li>
-                <a href="mailto:hey@lookstudiosco">
+                <a href="mailto:bobby@lookstudios.co">
                     <span>Let's work together</span>
                     <span class="light">@</span>
                 </a>
