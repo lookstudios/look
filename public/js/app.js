@@ -805,12 +805,14 @@ var app = new Vue({
 				repeat = Math.random() * 300;
 			} else {
 				this.lastFlicker = 0;
-				repeat = Math.random() * 2300;
+				repeat = false;
 			}
 
-			setTimeout(function () {
-				_this.flicker();
-			}, repeat);
+			if (repeat) {
+				setTimeout(function () {
+					_this.flicker();
+				}, repeat);
+			}
 		},
 
 

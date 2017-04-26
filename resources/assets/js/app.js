@@ -33,12 +33,14 @@ const app = new Vue({
 				repeat = Math.random() * 300;
 			}else{
 				this.lastFlicker = 0;
-				repeat = Math.random() * 2300;
+				repeat = false;
 			}
 
-    		setTimeout(() => {
-	    		this.flicker();
-	    	}, repeat);
+			if(repeat) {
+	    		setTimeout(() => {
+		    		this.flicker();
+		    	}, repeat);
+		    }
     	},
 
     	getDimensions: function() {
