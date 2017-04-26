@@ -9,7 +9,7 @@
 	cursor: pointer;
 
 	&.light {
-		background: url('/img/logo-square-light.svg') no-repeat center $text-dark;
+		background: url('/img/logo-square-light.svg') no-repeat center transparent;
 	}
 
 	@media(max-width: $mobile-width) {
