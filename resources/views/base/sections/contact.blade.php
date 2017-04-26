@@ -17,7 +17,7 @@
             <li>
                 <a href="https://github.com/lookstudios" target="_blank">
                     <span>See what we've built</span>
-                    <span class="light">WWW</span>
+                    <span class="light">www</span>
                 </a>
             </li>
         </ul>

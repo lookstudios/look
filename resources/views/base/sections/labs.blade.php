@@ -11,7 +11,7 @@
             <li>
                 <a href="https://github.com/lookstudios/static-starter" target="_blank">
                     <span>static-starter</span>
-                    <span class="light">WWW</span>
+                    <span class="light">www</span>
                 </a>
             </li>
         </ul>
