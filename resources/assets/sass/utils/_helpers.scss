@@ -1,0 +1,15 @@
+.level {
+	display: flex;
+
+	&.space-between {
+		justify-content: space-between;
+	}
+
+	.flex {
+		flex: 1;
+	}
+}
+
+.text-center {
+	text-align: center;
+}

@@ -1,3 +1,10 @@
-// Variables
 @import "utils/variables";
+@import "utils/helpers";
+@import "utils/typography";
 
+@import "components/section";
+@import "components/header";
+@import "components/container";
+@import "components/list";
+
+@import "pages/landing";
