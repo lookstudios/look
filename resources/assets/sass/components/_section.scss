@@ -8,7 +8,8 @@
 	flex-direction: row;
 	align-items: stretch;
 	flex-wrap: wrap;
-	overflow: auto;
+	overflow-y: scroll; /* has to be scroll, not auto */
+  	-webkit-overflow-scrolling: touch;
 }
 
 .section {
