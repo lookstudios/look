@@ -13,3 +13,9 @@
 .text-center {
 	text-align: center;
 }
+
+.image-preload {
+	position: absolute;
+	z-index: -10;
+	opacity: 0;
+}

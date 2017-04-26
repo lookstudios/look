@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('content')
+    
+    @include('global.nav')
 
     <div class="section-container" 
         id="landing"

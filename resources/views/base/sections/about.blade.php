@@ -5,7 +5,7 @@
     </div>
 </div>
         
-<div class="section centered">
+<div class="section centered" id="us">
     <div class="container">
         <ul class="list">
             <li class="title">What we do</li>

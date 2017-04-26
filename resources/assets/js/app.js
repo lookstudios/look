@@ -12,6 +12,7 @@ const app = new Vue({
     		pageHeight: 0,
   			viewportHeight: 0,
   			lastFlicker: 0,
+  			showNav: false
     	}
     },
 
@@ -52,8 +53,27 @@ const app = new Vue({
 			}
 		},
 
+		goTo(element) {
+			this.showNav = false;
+			setTimeout(() => {
+				this.scrollTo(element);
+			}, 300)
+		},
+
+		updateNavBg(bg, position = 'top') {
+			$('.nav-area').css({
+				'background-image': 'url(' + bg + ')',
+				'background-position': position
+			});
+		},
+
+		removeBackground() {
+			$('.nav-area').css('background-image', 'none');
+		},
+
 		scrollTo(element, speed = 300) {
-			var top = $(element).offset().top;
+			var scrollPos = $('.section-container').scrollTop();
+			var top = $(element).position().top + scrollPos;
 			$(".section-container").animate({
 				scrollTop: top + "px"
 			}, speed);

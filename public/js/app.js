@@ -782,7 +782,8 @@ var app = new Vue({
 		return {
 			pageHeight: 0,
 			viewportHeight: 0,
-			lastFlicker: 0
+			lastFlicker: 0,
+			showNav: false
 		};
 	},
 	mounted: function mounted() {
@@ -825,10 +826,30 @@ var app = new Vue({
 			}
 		},
 
+		goTo: function goTo(element) {
+			var _this2 = this;
+
+			this.showNav = false;
+			setTimeout(function () {
+				_this2.scrollTo(element);
+			}, 300);
+		},
+		updateNavBg: function updateNavBg(bg) {
+			var position = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'top';
+
+			$('.nav-area').css({
+				'background-image': 'url(' + bg + ')',
+				'background-position': position
+			});
+		},
+		removeBackground: function removeBackground() {
+			$('.nav-area').css('background-image', 'none');
+		},
 		scrollTo: function scrollTo(element) {
 			var speed = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 300;
 
-			var top = $(element).offset().top;
+			var scrollPos = $('.section-container').scrollTop();
+			var top = $(element).position().top + scrollPos;
 			$(".section-container").animate({
 				scrollTop: top + "px"
 			}, speed);
