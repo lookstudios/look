@@ -1,4 +1,4 @@
-<div class="section centered">
+<div class="section centered" id="about">
     <div class="container">
         <p class="text-large text-center">Look is design &amp; development.</p>
         <p class="text-large text-center">Operating within the fields of forward thinking furniture, fashion, commerce, and health companies.</p>

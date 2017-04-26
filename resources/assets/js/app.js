@@ -2,7 +2,7 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 //Components
-Vue.component('example', require('./components/Example.vue'));
+//Vue.component('example', require('./components/Example.vue'));
 
 const app = new Vue({
     el: '#app',
@@ -50,6 +50,13 @@ const app = new Vue({
 			if (y + this.viewportHeight > this.pageHeight) {
 				$('.section-container').scrollTop(y % this.pageHeight);
 			}
+		},
+
+		scrollTo(element, speed = 300) {
+			var top = $(element).offset().top;
+			$(".section-container").animate({
+				scrollTop: top + "px"
+			}, speed);
 		}
     }
 });
