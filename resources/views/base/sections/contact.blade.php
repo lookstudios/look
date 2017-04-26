@@ -8,11 +8,11 @@
             </li>
             <li>
                 <span>Follow Look for updates</span>
-                <a href="https://twitter.com/lookstudiosco" target="_blank" class="light">@</span>
+                <a href="https://twitter.com/lookstudiosco" target="_blank" class="light">@</a>
             </li>
             <li>
                 <span>See what we've built</span>
-                <a href="https://github.com/lookstudios" target="_blank" class="light">WWW</span>
+                <a href="https://github.com/lookstudios" target="_blank" class="light">WWW</a>
             </li>
         </ul>
     </div>
