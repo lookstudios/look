@@ -11,7 +11,7 @@
         @include('base.sections.about')
         @include('base.sections.labs')
         @include('base.sections.contact')
-        @include('base.sections.hero')
+        @include('base.sections.hero', ['id' => 'hero-last'])
 
     </div>
 
