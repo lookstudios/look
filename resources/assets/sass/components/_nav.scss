@@ -1,0 +1,58 @@
+.nav {
+	width: 64px;
+	height: 64px;
+	top: 60px;
+	left: 60px;
+	position: fixed;
+	z-index: 1;
+	background: url('/img/logo-square.svg') no-repeat center #FFF;
+	cursor: pointer;
+
+	&.light {
+		background: url('/img/logo-square-light.svg') no-repeat center transparent;
+	}
+
+	@media(max-width: $mobile-width) {
+		display: none;
+	}
+}
+
+.nav-area {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	z-index: 10;
+	background-color: $text-dark;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-image .2s linear;
+
+	&.none  {
+		transition: none;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+
+		li {
+			margin-bottom: 40px;
+
+			a {
+				font-size: 48px;
+				color: #FFFFFF;
+				text-decoration: none;
+			}
+
+			&:last-child {
+				margin-bottom: 0px;
+			}
+		}
+	}
+}

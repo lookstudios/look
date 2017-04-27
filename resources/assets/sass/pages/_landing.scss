@@ -1,0 +1,23 @@
+#landing {
+	.logo-center {
+		margin: 0px auto;
+		width: 252px;
+		height: 115px;
+		background: url('/img/logo.svg') no-repeat center;
+		background-size: 252px 115px;
+
+		&.off {
+			background: url('/img/logo-off.svg') no-repeat center;
+		}
+	}
+
+	.scroll {
+		display: block;
+		font-size: 20px;
+		color: #fff;
+		text-decoration: none;
+		margin-bottom: $site-margin;
+	}
+
+}
+
