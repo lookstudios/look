@@ -4,6 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ isset($desc) ? $desc : 'Look is design and development. Operating within the fields of forward thinking furniture, fashion, commerce, and health companies.'}}">
+        <meta name="application-name" content="Look Studios">
+        <meta name="description" content="{{ isset($desc) ? $desc : 'Look is design and development. Operating within the fields of forward thinking furniture, fashion, commerce, and health companies.'}}">
+        <meta name="twitter:title" content="{{ isset($title) ? $title : 'Look Studios' }}">
+        <meta name="twitter:description" content="{{ isset($desc) ? $desc : 'Look is design and development. Operating within the fields of forward thinking furniture, fashion, commerce, and health companies.'}}">
+        <meta name="og:title" content="{{ isset($title) ? $title : 'Look Studios' }}">
+        <meta name="og:description" content="{{ isset($desc) ? $desc : 'Look is design and development. Operating within the fields of forward thinking furniture, fashion, commerce, and health companies.'}}">
+        <meta name="og:image" content="{{ isset($image) ? $image : env('APP_URL') . '/img/banner.png'}}">
         <title>Look Studios</title>
         <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
