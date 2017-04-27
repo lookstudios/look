@@ -3,9 +3,9 @@
         <ul class="list">
             <li class="title">Look labs</li>
             <li>
-                <a href="#" @click.prevent>
+                <a href="http://rotate.am/" target="_blank">
                     <span>rotate.am</span>
-                    <span class="light">Soon</span>
+                    <span class="light">www</span>
                 </a>
             </li>
             <li>
