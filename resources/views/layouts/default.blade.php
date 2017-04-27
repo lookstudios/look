@@ -18,7 +18,6 @@
         <div id="app" v-cloak>
             @yield('content')
         </div>
-
         <script src="/js/app.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
