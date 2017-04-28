@@ -14,6 +14,12 @@
                     <span class="light">www</span>
                 </a>
             </li>
+            <li>
+                <a @click.stop href="https://github.com/lookstudios/vue-loop" target="_blank">
+                    <span>vue-loop</span>
+                    <span class="light">www</span>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
