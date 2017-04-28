@@ -76,6 +76,7 @@ const app = new Vue({
 		scrollTo(element, speed = 300) {
 			var scrollPos = $('.section-container').scrollTop();
 			var top = $(element).position().top + scrollPos;
+			console.log(top, scrollPos, $(element).position().top)
 			$(".section-container").animate({
 				scrollTop: top + "px"
 			}, speed);
