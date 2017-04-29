@@ -1,9 +1,4 @@
 <div class="nav-area none" v-if="showNav">
-    <div class="image-preload">
-        <img src="/img/backgrounds/2.png">
-        <img src="/img/backgrounds/3.png">
-        <img src="/img/backgrounds/4.png">
-    </div>
     <div class="nav light" @click.prevent="showNav = false"></div>
     <ul class="text-center" @mouseleave="removeBackground">
         <li @mouseover="updateNavBg('/img/backgrounds/soon.gif', 'center')">

@@ -2,7 +2,7 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 //Components
-//Vue.component('example', require('./components/Example.vue'));
+import VueLoop from 'vue-loop';
 
 const app = new Vue({
     el: '#app',
@@ -16,10 +16,12 @@ const app = new Vue({
     	}
     },
 
+    components: {
+    	VueLoop
+    },
+
     mounted() {
-    	this.getDimensions();
     	this.flicker();
-    	$(window).on('resize', this.getDimensions);
     },
 
     methods: {
@@ -27,7 +29,6 @@ const app = new Vue({
     	flicker() {
     		$(".logo-center").toggleClass('off');
     		let repeat = 0;
-
     		if(this.lastFlicker < 5){
 				this.lastFlicker++;
 				repeat = Math.random() * 300;
@@ -42,18 +43,6 @@ const app = new Vue({
 		    	}, repeat);
 		    }
     	},
-
-    	getDimensions: function() {
-			this.pageHeight = $('.section').height() * ($('.section').length - 1);
-			this.viewportHeight = $(window).height();
-		},
-
-		scrollHandler: function(e) {
-			var y = $(e.target).scrollTop();
-			if (y + this.viewportHeight > this.pageHeight) {
-				$('.section-container').scrollTop(y % this.pageHeight);
-			}
-		},
 
 		goTo(element) {
 			this.showNav = false;

@@ -1,4 +1,4 @@
-<div class="section centered" id="labs" @click.prevent="scrollTo('#contact')">
+<div class="item centered" id="labs">
     <div class="container">
         <ul class="list">
             <li class="title">Look labs</li>

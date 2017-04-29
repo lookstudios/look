@@ -1,4 +1,4 @@
-<div class="section centered" id="contact" @click.prevent="scrollTo('#hero-last')">
+<div class="item centered" id="contact">
     <div class="container">
         <ul class="list">
             <li class="title">Get in touch</li>
