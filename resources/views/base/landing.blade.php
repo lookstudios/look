@@ -3,7 +3,7 @@
     
     @include('global.nav')
 
-    <div class="section-container" 
+    <div :class="{'section-container': true, 'hidden': showNav}" 
         id="landing"
         @scroll="scrollHandler">
 
