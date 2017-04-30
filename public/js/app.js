@@ -842,11 +842,12 @@ var app = new Vue({
 		scrollTo: function scrollTo(element) {
 			var speed = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 300;
 
-			var scrollPos = $('.section-container').scrollTop();
+			console.log(element, speed);
+			var scrollPos = $('.loop-container').scrollTop();
 			var top = $(element).position().top + scrollPos;
 			console.log(top, scrollPos, $(element).position().top);
-			$(".section-container").animate({
-				scrollTop: top + "px"
+			$(".loop-container").animate({
+				scrollTop: top - 10 + "px"
 			}, speed);
 		}
 	}
