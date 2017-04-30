@@ -16,6 +16,11 @@
 			color: $text-dark;
 			text-decoration: none;
 			flex: 1;
+			transition: transform .2s ease-in-out;
+
+			&:hover {
+				transform: translate3d(10px, 0, 0)
+			}
 		}
 
 		span {
