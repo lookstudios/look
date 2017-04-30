@@ -1,7 +1,7 @@
 <div class="item centered" id="labs">
     <div class="container">
         <ul class="list">
-            <li class="title">Look labs</li>
+            <li class="title">Labs</li>
             <li>
                 <a @click.stop href="http://rotate.am/" target="_blank">
                     <span>rotate.am</span>

@@ -4,11 +4,11 @@
         <p class="text-large text-center">Operating within the fields of forward thinking furniture, fashion, commerce, and health companies.</p>
     </div>
 </div>
-        
+
 <div class="item centered" id="us">
     <div class="container">
         <ul class="list">
-            <li class="title">What we do</li>
+            <li class="title">Services</li>
             <li>
                 <span>Strategy</span>
                 <span class="light">Idea to launch</span>

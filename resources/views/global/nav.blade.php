@@ -2,16 +2,16 @@
     <div class="nav light" @click.prevent="showNav = false"></div>
     <ul class="text-center" @mouseleave="removeBackground">
         <li @mouseover="updateNavBg('/img/backgrounds/soon.gif', 'center')">
-            <a href="/" @click.prevent="goTo('#hero')">Look Studios</a>
+            <a href="/" @click.prevent="goTo('#hero')">Look</a>
         </li>
         <li @mouseover="updateNavBg('/img/backgrounds/2.png')">
-            <a href="/" @click.prevent="goTo('#us')">What we do</a>
+            <a href="/" @click.prevent="goTo('#us')">Services</a>
         </li>
         <li @mouseover="updateNavBg('/img/backgrounds/3.png')">
-            <a href="/" @click.prevent="goTo('#labs')">Look Labs</a>
+            <a href="/" @click.prevent="goTo('#labs')">Labs</a>
         </li>
         <li @mouseover="updateNavBg('/img/backgrounds/4.png')">
-            <a href="/" @click.prevent="goTo('#contact')">Get in touch</a>
+            <a href="/" @click.prevent="goTo('#contact')">Contact</a>
         </li>
     </ul>
 </div>

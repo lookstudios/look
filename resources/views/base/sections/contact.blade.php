@@ -16,7 +16,7 @@
             </li>
             <li>
                 <a @click.stop href="https://github.com/lookstudios" target="_blank">
-                    <span>See what we've built</span>
+                    <span>See what we’re building</span>
                     <span class="light">www</span>
                 </a>
             </li>
