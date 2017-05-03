@@ -1,5 +1,5 @@
 @extends('layouts.default', [
-	'title' => 'Look Studios - Rotate.am'
+	'title' => 'Rotate'
 ])
 @section('content')  
     @include('global.nav')
