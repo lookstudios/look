@@ -799,7 +799,8 @@ var app = new Vue({
 		var container = document.getElementsByClassName('loop-container')[0];
 		container.addEventListener('scroll', function (event) {
 			document.getElementsByClassName('banner')[0].style.transform = 'translateY(' + parseInt(container.scrollTop / 7) + 'px)';
-			document.getElementById('imageCont').style.transform = 'translateX(-' + parseInt(container.scrollTop / 15) + 'px)';
+			document.getElementById('imageCont').style.transform = 'translateX(-' + parseInt(container.scrollTop / 8) + 'px)';
+			document.getElementsByClassName('image-stick')[0].style.transform = 'translateX(' + parseInt(container.scrollTop / 25) + 'px)';
 		}, true);
 	},
 

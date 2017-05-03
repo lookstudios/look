@@ -20,11 +20,24 @@
 		color: #EF4038;
 	}
 
+	.image-stick {
+		display: flex;
+		justify-content: flex-end;
+		overflow: visible;
+		align-items: center;
+
+		img {
+			margin-right: 0px;
+			min-width: 80vw;
+		}
+	}
+
 	.background-rotate {
 		background-color: #EF4038;
 	}
 
 	.item {
+		position: relative;
 
 		&.no-height {
 			min-height: initial !important;

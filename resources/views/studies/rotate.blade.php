@@ -46,7 +46,7 @@
         	</div>
 
         	<div class="item centered grey-area">
-        		<div class="container container-lg">
+        		<div class="container container-lg image-stick">
         			<img src="/img/studies/rotate/mobile.png" alt="http://rotate.am/" />
         		</div>
         	</div>
