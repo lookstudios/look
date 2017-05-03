@@ -857,7 +857,7 @@ var app = new Vue({
 /* 9 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: \n<<<<<<< Updated upstream\n^\n      Invalid CSS after \"<\": expected 1 selector or at-rule, was \"<<<<<<< Updated ups\"\n      in /Users/josephsmith/Sites/Look/resources/assets/sass/components/_section.scss (line 1, column 1)\n    at runLoaders (/Users/josephsmith/Sites/Look/node_modules/webpack/lib/NormalModule.js:192:19)\n    at /Users/josephsmith/Sites/Look/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/josephsmith/Sites/Look/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/josephsmith/Sites/Look/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (/Users/josephsmith/Sites/Look/node_modules/sass-loader/lib/loader.js:57:13)\n    at Object.<anonymous> (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:944:16)\n    at options.error (/Users/josephsmith/Sites/Look/node_modules/node-sass/lib/index.js:294:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 10 */
