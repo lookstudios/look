@@ -12,7 +12,7 @@
         <meta name="og:title" content="{{ isset($title) ? $title : 'Look Studios' }}">
         <meta name="og:description" content="{{ isset($desc) ? $desc : 'Look is design and development. Operating within the fields of forward thinking furniture, fashion, commerce, and health companies.'}}">
         <meta name="og:image" content="{{ isset($image) ? $image : env('APP_URL') . '/img/banner.png'}}">
-        <title>Look Studios</title>
+        <title>{{ isset($title) ? $title : 'Look Studios'}}</title>
         <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="/css/app.css" rel="stylesheet" type="text/css">

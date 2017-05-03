@@ -5,4 +5,8 @@
 	padding: 0px $site-margin;
 	max-width: $site-width + ($site-margin * 2);
 	position: relative;
+
+	&.container-lg {
+		max-width: 964px;
+	}
 }

@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 39);
+/******/ 	return __webpack_require__(__webpack_require__.s = 43);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -471,7 +471,7 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(34)))
 
 /***/ }),
 /* 2 */
@@ -770,7 +770,7 @@ module.exports = g;
 
 "use strict";
 __webpack_require__(29);
-window.Vue = __webpack_require__(37);
+window.Vue = __webpack_require__(41);
 
 //Components
 //Vue.component('example', require('./components/Example.vue'));
@@ -863,7 +863,7 @@ var app = new Vue({
 /* 9 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \n\tline-height: 58px;\n                   ^\n      Invalid CSS after \"...e-height: 58px;\": expected \"}\", was \"<<<<<<< Updated ups\"\n      in /Users/josephsmith/Sites/Look/resources/assets/sass/utils/_typography.scss (line 14, column 21)\n    at runLoaders (/Users/josephsmith/Sites/Look/node_modules/webpack/lib/NormalModule.js:192:19)\n    at /Users/josephsmith/Sites/Look/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/josephsmith/Sites/Look/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/josephsmith/Sites/Look/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (/Users/josephsmith/Sites/Look/node_modules/sass-loader/lib/loader.js:57:13)\n    at Object.<anonymous> (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/josephsmith/Sites/Look/node_modules/async/dist/async.js:944:16)\n    at options.error (/Users/josephsmith/Sites/Look/node_modules/node-sass/lib/index.js:294:32)");
 
 /***/ }),
 /* 10 */
@@ -1711,8 +1711,8 @@ module.exports = function spread(callback) {
 /* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-window._ = __webpack_require__(31);
-window.$ = window.jQuery = __webpack_require__(30);
+window._ = __webpack_require__(33);
+window.$ = window.jQuery = __webpack_require__(32);
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
@@ -1724,7 +1724,9 @@ window.axios.defaults.headers.common['X-CSRF-TOKEN'] = window.Look.csrfToken;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
-/* 30 */
+/* 30 */,
+/* 31 */,
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11984,7 +11986,7 @@ return jQuery;
 
 
 /***/ }),
-/* 31 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -29073,10 +29075,10 @@ return jQuery;
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7), __webpack_require__(38)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7), __webpack_require__(42)(module)))
 
 /***/ }),
-/* 32 */
+/* 34 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -29266,11 +29268,13 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 33 */,
-/* 34 */,
 /* 35 */,
 /* 36 */,
-/* 37 */
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38598,7 +38602,7 @@ module.exports = Vue$3;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
 
 /***/ }),
-/* 38 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -38626,7 +38630,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 39 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);

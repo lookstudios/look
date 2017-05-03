@@ -12,4 +12,29 @@ body, html, input, button, select {
 	font-size: 38px;
 	color: $text-dark;
 	line-height: 58px;
+<<<<<<< Updated upstream
+=======
+}
+
+.text-right {
+	text-align: right;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 38px;
+	color: #222222;
+	line-height: 58px;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 22px;
+	color: #888888;
+	line-height: 36px;
+
+	a {
+		text-decoration: none;
+	}
+>>>>>>> Stashed changes
 }
