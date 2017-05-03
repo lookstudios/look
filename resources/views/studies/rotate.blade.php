@@ -6,7 +6,13 @@
     <div id="study">
         <div class="loop-container full">
         	<div class="item spaced banner rotate-banner">
-        		@include('global.header')
+        		@include('global.header', [
+        			'title' => 'Rotate',
+        			'link' => 'http://rotate.am',
+        			'linkTxt' => 'Visit site →',
+        			'target' => '_blank',
+        			'class' => 'move-forwards'
+        		])
         		<div class="container">
         			<h1>Rotate carefully selects three products to showcase every Monday.</h1>
         		</div>
@@ -42,6 +48,13 @@
         	<div class="item centered grey-area">
         		<div class="container container-lg">
         			<img src="/img/studies/rotate/mobile.png" alt="http://rotate.am/" />
+        		</div>
+        	</div>
+
+        	<div class="item centered">
+        		<div class="container">
+        			<h2 class="rotate">Launching and iterating</h2>
+        			<p>We launched Rotate in May of 2017. With new rotates released every Monday morning, the product continues to grow. We’re working on improvements every week and have exciting plans ahead.</p>
         		</div>
         	</div>
 
