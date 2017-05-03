@@ -800,7 +800,7 @@ var app = new Vue({
 		container.addEventListener('scroll', function (event) {
 			document.getElementsByClassName('banner')[0].style.transform = 'translateY(' + parseInt(container.scrollTop / 7) + 'px)';
 			document.getElementById('imageCont').style.transform = 'translateX(-' + parseInt(container.scrollTop / 8) + 'px)';
-			document.getElementsByClassName('image-stick')[0].style.transform = 'translateX(' + parseInt(container.scrollTop / 25) + 'px)';
+			document.getElementsByClassName('image-stick')[0].style.transform = 'translateX(' + parseInt((container.scrollTop - 4000) / 8) + 'px)';
 		}, true);
 	},
 

@@ -21,14 +21,16 @@
 	}
 
 	.image-stick {
-		display: flex;
-		justify-content: flex-end;
+		text-align: right;
 		overflow: visible;
-		align-items: center;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
 
 		img {
 			margin-right: 0px;
-			min-width: 80vw;
+			max-width: 1270px;
+			max-height: 754px;
 		}
 	}
 
