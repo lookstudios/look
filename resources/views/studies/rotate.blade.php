@@ -47,10 +47,10 @@
 
         	<div class="item no-height">
                 <div class="level">
-					<div class="flex background-rotate right">
+					<div class="flex background-rotate center">
 						<img src="/img/studies/rotate/logo.png" alt="http://rotate.am/" style="max-height: 610px;" />
 					</div>
-					<div class="flex left">
+					<div class="flex center">
 						<img src="/img/studies/rotate/colors.png" alt="http://rotate.am/" style="max-height: 610px;" />
 					</div>
 				</div>
