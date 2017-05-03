@@ -1,0 +1,56 @@
+#study {
+
+	.banner {
+		z-index: 2;
+
+
+		&.rotate-banner  {
+			background-color: #EF4038;
+
+			h1 {
+				color: #fff;
+				text-align: center;
+			}
+		}
+	}
+
+	.item {
+
+		&.no-height {
+			min-height: initial !important;
+			max-height: 200%;
+		}
+
+		h2 {
+			font-weight: 500;
+			margin: 76px 0px 40px 0px;
+			font-size: 26px;
+			line-height: 36px;
+
+			&.rotate {
+				color: #EF4038;
+			}
+		}
+
+		p {
+			font-size: 22px;
+			color: #222222;
+			line-height: 36px;
+			padding: 0 0 30px 0;
+		}
+
+		h4.rotate {
+			a {
+				color: #EF4038;
+				&:hover {
+					color: darken(#EF4038, 10%);
+				}
+			}
+		}
+
+	}
+	
+
+
+
+}
