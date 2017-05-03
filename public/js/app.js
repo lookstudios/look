@@ -785,7 +785,6 @@ var app = new Vue({
 		return {
 			pageHeight: 0,
 			viewportHeight: 0,
-			lastFlicker: 0,
 			showNav: false
 		};
 	},
@@ -795,37 +794,13 @@ var app = new Vue({
 		VueLoop: __WEBPACK_IMPORTED_MODULE_0_vue_loop___default.a
 	},
 
-	mounted: function mounted() {
-		this.flicker();
-	},
-
-
 	methods: {
-		flicker: function flicker() {
-			var _this = this;
-
-			$(".logo-center").toggleClass('off');
-			var repeat = 0;
-			if (this.lastFlicker < 5) {
-				this.lastFlicker++;
-				repeat = Math.random() * 300;
-			} else {
-				this.lastFlicker = 0;
-				repeat = false;
-			}
-
-			if (repeat) {
-				setTimeout(function () {
-					_this.flicker();
-				}, repeat);
-			}
-		},
 		goTo: function goTo(element) {
-			var _this2 = this;
+			var _this = this;
 
 			this.showNav = false;
 			setTimeout(function () {
-				_this2.scrollTo(element);
+				_this.scrollTo(element);
 			}, 300);
 		},
 		updateNavBg: function updateNavBg(bg) {

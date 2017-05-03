@@ -11,7 +11,6 @@ const app = new Vue({
     	return {
     		pageHeight: 0,
   			viewportHeight: 0,
-  			lastFlicker: 0,
   			showNav: false
     	}
     },
@@ -20,29 +19,7 @@ const app = new Vue({
     	VueLoop
     },
 
-    mounted() {
-    	this.flicker();
-    },
-
     methods: {
-
-    	flicker() {
-    		$(".logo-center").toggleClass('off');
-    		let repeat = 0;
-    		if(this.lastFlicker < 5){
-				this.lastFlicker++;
-				repeat = Math.random() * 300;
-			}else{
-				this.lastFlicker = 0;
-				repeat = false;
-			}
-
-			if(repeat) {
-	    		setTimeout(() => {
-		    		this.flicker();
-		    	}, repeat);
-		    }
-    	},
 
 		goTo(element) {
 			this.showNav = false;
