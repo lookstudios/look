@@ -34,14 +34,14 @@
         	<div class="item no-height grey-area">
         		<div class="container container-lg level" id="imageCont">
         			<img src="/img/studies/rotate/home.png" alt="http://rotate.am/" />
-        			<img src="/img/studies/rotate/home.png" alt="http://rotate.am/" />
+        			<img src="/img/studies/rotate/rotates.png" alt="http://rotate.am/rotates" />
         		</div>
         	</div>
 
         	<div class="item centered">
         		<div class="container">
         			<h1>I like that it's focused on few, hand-selected products vs. yet-another-infinite feed.</h1>
-        			<h4 class="rotate"><a href="#" target="_blank">Ryan Hoover</a>, founder of Product Hunt</h4>
+        			<h4 class="rotate"><a href="https://www.producthunt.com/posts/rotate-2" target="_blank">Ryan Hoover</a>, founder of Product Hunt</h4>
         		</div>
         	</div>
 
@@ -71,8 +71,8 @@
 
         	<div class="item centered">
         		<div class="container">
-        			<h1>Since the launch of Rotate, we’ve been featured on this, that, and this.</h1>
-        			<h4 class="rotate"><a href="http://rotate.am" target="_blank">Visit rotate.am →</a></h4>
+        			<h1>Since the launch of Rotate, we’ve released new products every week.</h1>
+        			<h4 class="rotate"><a href="http://rotate.am" target="_blank" class="move-forwards">Visit rotate.am →</a></h4>
         		</div>
         	</div>
 
