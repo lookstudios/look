@@ -19,6 +19,16 @@ const app = new Vue({
     	VueLoop
     },
 
+    mounted() {
+
+    	const container = document.getElementsByClassName('loop-container')[0];
+    	container.addEventListener('scroll', (event) => {
+    		document.getElementsByClassName('banner')[0].style.transform = 'translateY(' + parseInt(container.scrollTop / 7) + 'px)';
+    		document.getElementById('imageCont').style.transform = 'translateX(-' + parseInt(container.scrollTop / 15) + 'px)';
+    	}, true);
+
+    },
+
     methods: {
 
 		goTo(element) {

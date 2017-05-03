@@ -5,8 +5,12 @@
 	}
 
 	&.push {
+		padding-top: 236px;
+		padding-bottom: 236px;
+	}
+
+	&.push-top {
 		padding-top: 70px;
-		padding-bottom: 120px;
 	}
 
 	&.has-background {
