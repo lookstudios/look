@@ -13,17 +13,19 @@
         		<div></div>
         	</div>
 
-        	<div class="item push no-height">
+        	<div class="item centered">
         		<div class="container container-lg">
         			<img src="/img/studies/rotate/products.png" alt="Rotate projects" width="100%">
         		</div>
-
-        		<div class="container">
-        			<h2 class="rotate">From idea to launch in 24 hours.</h2>
-        			<p>Rotate’s audience ranges from casual shoppers to industrial designers. We set out to create a digital product in twenty-four hours that would help anyone discover new products to buy.</p>
-					<p>We spent all morning defining the product strategy, user experience, visual design, and branding. The backend was developed during the design phase and frontend directly after user experience.</p>
-        		</div>
         	</div>
+
+            <div class="item push centered">
+                <div class="container">
+                    <h2 class="rotate">From idea to launch in 24 hours.</h2>
+                    <p>Rotate’s audience ranges from casual shoppers to industrial designers. We set out to create a digital product in twenty-four hours that would help anyone discover new products to buy.</p>
+                    <p>We spent all morning defining the product strategy, user experience, visual design, and branding. The backend was developed during the design phase and frontend directly after user experience.</p>
+                </div>
+            </div>
 
         	<div class="item centered grey-area">
         		<div class="container container-lg level">
