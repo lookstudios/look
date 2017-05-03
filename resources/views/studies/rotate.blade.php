@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-        	<div class="item centered grey-area">
+        	<div class="item no-height grey-area">
         		<div class="container container-lg level" id="imageCont">
         			<img src="/img/studies/rotate/home.png" alt="http://rotate.am/" />
         			<img src="/img/studies/rotate/home.png" alt="http://rotate.am/" />
@@ -39,14 +39,16 @@
         		</div>
         	</div>
 
-        	<div class="item centered grey-area">
+        	<div class="item no-height grey-area">
         		<div class="container container-lg level">
         			<img src="/img/studies/rotate/mobile.png" alt="http://rotate.am/" />
         		</div>
         	</div>
 
         	<div class="item no-height">
-        		<img src="/img/studies/rotate/banner.png" alt="http://rotate.am/" width="100%" />
+                <div class="container">
+                    <img src="/img/studies/rotate/banner.png" alt="http://rotate.am/" width="100%" />
+                </div>
         	</div>
 
         	<div class="item centered">
