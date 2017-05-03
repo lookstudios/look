@@ -1,0 +1,39 @@
+.loop-container {
+	display: block;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.loop-container.full {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	justify-content: flex-start;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.loop-container.full > .item {
+	min-width: 100%;
+	min-height: 100%;
+	flex: 1;
+	backface-visibility: hidden;
+    transform: translate3d(0,0,0);
+}
+
+.loop-container.horizontal {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+.loop-container.full.horizontal > .item {
+	min-width: 100%;
+	flex: 1;
+}

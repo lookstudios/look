@@ -1,0 +1,22 @@
+.footer {
+	padding: 22px 0px;
+	border-top: 1px solid #F5F5F5;
+	color: #888888;
+	font-size: 18px;
+
+	a {
+		padding-right: 32px;
+		color: #222;
+		text-decoration: none;
+
+		&:hover {
+			color: #000;
+		}
+
+		&:last-child {
+			padding-right: 0px;
+		}
+	}
+
+
+}

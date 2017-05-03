@@ -4,7 +4,7 @@
 @section('content')  
     @include('global.nav')
     <div id="study">
-        <vue-loop>
+        <div class="loop-container full">
         	<div class="item spaced banner rotate-banner">
         		@include('global.header')
         		<div class="container">
@@ -39,7 +39,7 @@
         		</div>
         	</div>
 
-        	<div class="item no-height grey-area">
+        	<div class="item centered grey-area">
         		<div class="container container-lg">
         			<img src="/img/studies/rotate/mobile.png" alt="http://rotate.am/" />
         		</div>
@@ -63,8 +63,18 @@
         		</div>
         	</div>
 
-
-        	@include('base.sections.hero', ['menu' => false])
-        </vue-loop>
+        	<footer class="footer">
+        		<div class="container">
+        			<div class="level">
+        				<div class="flex left">&copy; 2017 Look Studios</div>
+        				<div class="flex right">
+        					<a href="https://github.com/lookstudios" target="_blank">Github</a>
+        					<a href="https://twitter.com/lookstudiosco" target="_blank">Twitter</a>
+        					<a href="mailto:bobby@lookstudios.co">Contact</a>
+        				</div>
+        			</div>
+        		</div>
+        	</footer>
+        </div>
     </div>
 @stop
