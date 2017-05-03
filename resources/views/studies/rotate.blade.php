@@ -40,15 +40,20 @@
         	</div>
 
         	<div class="item no-height grey-area">
-        		<div class="container container-lg level">
+        		<div class="container container-lg">
         			<img src="/img/studies/rotate/mobile.png" alt="http://rotate.am/" />
         		</div>
         	</div>
 
         	<div class="item no-height">
-                <div class="container">
-                    <img src="/img/studies/rotate/banner.png" alt="http://rotate.am/" width="100%" />
-                </div>
+                <div class="level">
+					<div class="flex background-rotate right">
+						<img src="/img/studies/rotate/logo.png" alt="http://rotate.am/" style="max-height: 610px;" />
+					</div>
+					<div class="flex left">
+						<img src="/img/studies/rotate/colors.png" alt="http://rotate.am/" style="max-height: 610px;" />
+					</div>
+				</div>
         	</div>
 
         	<div class="item centered">
