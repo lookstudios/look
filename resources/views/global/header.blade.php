@@ -5,5 +5,5 @@
 		A digital studio based in US &amp; UK.
 	</div>
 	
-	<a href="#" @click.prevent="scrollTo('#contact')">Contact</a>
+	<a href="#" @click.stop.prevent="scrollTo('#contact')" class="text-right">Contact</a>
 </header>

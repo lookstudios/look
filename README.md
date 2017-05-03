@@ -1,2 +1,2 @@
 # Look Studios
-We need to edit this...
+Our very own personal site. We've open-sourced our site for you to snoop.
