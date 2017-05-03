@@ -11,3 +11,18 @@
 
 @import "pages/landing";
 @import "pages/study";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.loop-container {
+	width: 100%;
+	overflow-x: hidden;
+}
