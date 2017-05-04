@@ -2,7 +2,7 @@
 	'title' => 'Rotate'
 ])
 @section('content')  
-    @include('global.nav')
+    @include('global.nav', ['link' => true])
     <div id="study">
         <div class="loop-container full">
         	<div class="item spaced banner rotate-banner">
